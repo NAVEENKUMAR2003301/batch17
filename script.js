@@ -268,9 +268,173 @@ console.log("num8 :",num8);
 
 
 
-let num9 = 2 //3
-let num10 = num9++ + num9++ // num9++ + num9 = 2++ = 3  + 2 = 5
+let num9 = 2 // 3
+let num10 = ++num9 + ++num9 // ++num9 + ++num9 = ++2 = 3 ,++num9 = ++3 = 4
 
-console.log("num9 :",num9);
+console.log("num9 :",num9); // num9 
 console.log("num10 :",num10);
+
+
+console.clear();
+
+
+// assignment operator 
+
+let num11 = 10
+
+let additionVal = 20
+
+num11     = num11 + additionVal
+
+console.log(additionVal);
+
+console.log(num11);
+
+
+let num12 = 2
+
+num12     %= additionVal // num12 = num12 + additionVal
+
+console.log(num12);
+
+
+// comparision operator Or relational operator
+
+
+//  meaning       operator               example          result
+
+// lessthen op        <                     5<2             false
+
+// greater Then       >                     5>3             true
+
+// lessThenEq         <=                    5<=5            true
+
+// greaterThenEq      >=                    5>=5            true
+
+// loosyTypeEq        ==                    5=="5"          true
+
+// StrictlyTypeEq     ===                   5==="5"         false
+
+// loosyNotEq         !=                    5!="5"          false
+
+// strictlyNotEq      !==                   5!=="5"         true
+
+
+
+
+console.log("5"!==5);    // true 
+console.log("3"==="3");  // true
+console.log(5>5);        // false
+console.log(0===0);      // true
+console.log("0"==="0");  // true
+console.log(1!=2);       // true
+console.log(6>=7);       // false 
+console.log(5>=5);       // true
+console.log(.4!==4);     // true   .4===4 = !false = true
+console.log(true !== "true"); // true
+console.log(6===.5);     // false
+console.log(2>=2);       // true
+console.log(123>=321);   // false
+console.log(true == 1);  // true = 1 == 1
+
+
+
+// Logical operator
+
+// And   - &&
+
+//    true + true + true = true
+
+//    false + true + true = false 
+
+
+// Or    - ||
+
+
+//   false + false + false = false
+
+//   true  + false + false = true
+
+
+// Not   -  !
+
+    // !(true) = false
+
+
+    console.log(!(5===5));
+
+
+    console.log((5>=5) && (5!==5));
+
+    // true  &&  false = false
+    
+    
+
+
+console.log(true && false || true);       // true  
+console.log(false || true && false);    
+console.log(!(true && false) || false); 
+console.log(!(false || false) && true); 
+console.log(true && !false || false);   
+console.log(!true || false && true);    
+console.log((true || false) && !false);
+console.log((false && true) || !false);
+console.log(!((true || false) && false));
+console.log((!true || true) && false);
+console.log(true && (false || !false));
+console.log(!(true && true) || (false && true));
+console.log((true || false) && !(false || true));
+console.log(!(false && false) || (true && !false));
+console.log((!false && true) || (false && !true));
+console.log(!(true || false) && (true || !false));
+
+
+
+
+console.log(5 > 3 && 2 < 4);              // true              
+console.log(10 === 10 || 5 > 10);         // true 
+console.log(!(7 < 5) && 3 !== 3);         // false   
+console.log(8 >= 8 || 2 < 1);             // true
+console.log(4 + 1 === 5 && 6 > 3);        // true
+console.log(!(10 < 5) || 7 === 8);        // true
+console.log(3 * 2 > 5 && !(4 === 4));     // false
+console.log(9 < 10 || 2 + 2 === 5);       // true
+console.log(!(6 >= 6) || 1 < 2);          // true
+console.log(5 !== 5 && 7 >= 7);           // false
+console.log((8 - 3) > 4 || !(2 + 2 === 4));// true
+console.log(!(10 > 5) && 6 < 7);           // false
+console.log(3 + 3 === 6 && 4 * 2 > 7);     // true
+console.log(7 < 8 || !(5 === 5));          // true 
+console.log(!(9 !== 9) && 3 + 1 <= 4);     // true    
+console.log(2 * 3 >= 5 || !(4 > 4));       // true  
+
+console.clear();
+
+
+// Concatination (+)
+
+let name1 = "ben"
+
+let name2 = "10"
+
+
+let finalName = name1 +" "+ name2
+
+console.log(finalName);
+
+
+// Template String
+
+
+let TemplateVal = `${name1} ${name2}`
+
+console.log(TemplateVal);
+
+
+
+
+
+
+
+
 
