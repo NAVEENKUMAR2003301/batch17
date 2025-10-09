@@ -297,6 +297,13 @@ num12     %= additionVal // num12 = num12 + additionVal
 
 console.log(num12);
 
+let num13 = 5
+
+num13     += num13
+
+console.log(num13)
+
+
 
 // comparision operator Or relational operator
 
@@ -429,6 +436,96 @@ console.log(finalName);
 let TemplateVal = `${name1} ${name2}`
 
 console.log(TemplateVal);
+
+
+
+console.clear();
+
+// type conversion
+
+// implicit type conversion
+
+
+let one1 = "12"
+
+let num  = 12
+
+console.log(typeof(one1+num));
+
+
+// string 
+
+// string anything string
+
+console.log(typeof("12"+"12"));
+console.log(typeof("12"+12));
+console.log(typeof("12"+true));
+console.log(typeof("12"+undefined));
+console.log(typeof("12"+null));
+console.log(typeof("12"+[1,2]));
+console.log(typeof("12"+{k:1}));
+
+
+
+// number
+
+
+console.log(typeof(1 + "2"));
+console.log((1 + 1));
+console.log((1 + true));
+console.log((1 + undefined));
+console.log((1 + null));
+console.log(typeof(1 + [1,2]));
+console.log(typeof(1 + {k:2}));
+
+
+// boolean
+
+console.log(typeof(true + "45"));
+console.log((true + 5));
+console.log((true + true));
+console.log((true + undefined));
+console.log((true + null));
+console.log((true + [5,6]));
+console.log(typeof(true + {a:6}));
+
+
+// Explicit Type Conversion
+
+
+console.log(10 + Number("10"));
+
+console.log(Number());
+console.log(Number("abc"));
+console.log(Number(5));
+console.log(Number(false));
+console.log(Number(undefined));
+console.log(Number(null));
+console.log(Number([176,890]));
+console.log(Number({l:67}));
+
+
+
+console.log(Boolean());
+console.log(Boolean("dd"));
+console.log(Boolean(false));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean([8,5]));
+console.log(Boolean({l:89}));
+
+
+console.log(String("t"));
+
+
+let val1 = 5
+let val2 = val1++
+let val3 = ++val2
+
+console.log(val1);
+console.log(val2);
+console.log(val3);
+
 
 
 
