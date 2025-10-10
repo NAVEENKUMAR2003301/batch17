@@ -481,7 +481,7 @@ console.log(typeof(1 + {k:2}));
 
 // boolean
 
-console.log(typeof(true + "45"));
+console.log((true + "45"));
 console.log((true + 5));
 console.log((true + true));
 console.log((true + undefined));
@@ -527,11 +527,201 @@ console.log(val2);
 console.log(val3);
 
 
+console.clear();
+
+// conditional statement
+
+// if 
+
+// if(){
+//  statement
+//}
+
+
+// condition  true = allow
+
+
+if(5==="5"){
+    alert("this condition is true")
+    
+}
+
+
+// if else
+
+if(-1){
+  console.log("manage true");
+  
+}else{
+  console.log("manage false");
+  
+}
+
+
+// if else if 
+
+let hour = 6
+
+if(hour >= 1 && hour <=6){
+  console.log("this is early morning");
+}else if(hour >= 7 && hour <= 12){
+  console.log("this good morning");
+
+}else if(hour >= 13 && hour <= 16){
+  console.log("this is afternoon");
+  
+}else if(hour>=17 && hour<=19){
+   console.log("this is evening");
+   
+}else{
+  console.log("this good night");
+  
+}
+
+
+
+// switch
+
+
+// switch(){
+//   case value : statement ; break;
+//   case value : statement ; break;
+//   case value : statement ; break;
+//   case value : statement ; break;
+//   case value : statement ; break;
+// }
+
+
+let trafficLight = "yellow"
+
+switch(trafficLight){
+  case "red" : console.log("stop the vechile");break
+  case "yellow" : console.log("start the vechile"); break;
+  case "green" : console.log("go the vechile");break
+}
+
+
+
+// nested if
+
+
+// let age = prompt("enter your age : ")
+// let height = prompt("enter your height : ")
+// let weight = prompt("enter your weight :")
+
+
+// if(age>=18){
+//   if(height>=162){
+//     if(weight>=62){
+//        alert("congradulation you eligible");
+       
+//     }else{
+//       alert(`your ${weight}kg weight is not eligible minimum age is 62kg`);
+//     }
+//   }else{
+//     alert("your"+height+"cm height is not eligible minimum height is 162");
+    
+//   }
+// }else{
+//   alert(`your ${age} year age is not eligible minimum age is 18year`);
+  
+// }
+
+
+// Ternary operator 
+
+// condition ? statement : statement;
+
+// let PWDInput = 0
+
+// PWDInput ? console.log("welcome enter the website") : console.log("your password is wrong");
+
+
+console.clear();
+
+// for loop
+
+// for(intialization;condition;iteration){
+//   statement
+// }
+
+console.log();
+
+for(let i = 1; i<=20; i++){ 
+ console.log(i + "*5="+i*5);
+ 
+}
+
+// i=1 ; 1<=5 true; 1++     console : 1 
+// i=2 ; 2<=5 true; 2++     console : 2
+// i=3 ; 3<=5 true; 3++     console : 3
+// i=4 ; 4<=5 true; 4++     console : 4
+// i=5 ; 5<=5 true; 5++     console : 5
+// i=6 ; 6<=5 false;
+
+// while
+
+// intialiazation
+
+// while(condition ){
+//   statement 
+//   iteration
+// }
+
+
+let val = 10
+
+while(val>=30){
+
+  console.log(val);
+
+  val--
+  
+}
+
+
+//  do while 
+
+// intialiazation
+
+// do{
+//    statement ; iteration;
+// }
+
+// while(condition)
+
+let num14 = 10
+
+do{
+  console.log(num14); num14++
+  
+}
+
+while(num14<=20)
+
+
+// for of loop [string, Array, function]
+
+let str = "javascript"
+let arr = ["apple","orange","banana","guava"]
+
+for(let ben of arr){
+  console.log(ben);
+  
+}
 
 
 
 
+// for in loop [object]
 
+let games = {
+  small : "snack",
+  medium : "pubg",
+  large : "spiderman"
+}
 
-
-
+for(let ben10 in games){
+    console.log(games[ben10]);
+    
+}
