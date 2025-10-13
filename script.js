@@ -1,727 +1,910 @@
-// // variables
 
 
-// // var - global scope
+// // // variables
 
-// // let - block scope
 
-// // const - block scope
+// // // var - global scope
 
+// // // let - block scope
 
-// // var
+// // // const - block scope
 
 
-// var a = 10   // declration // intiazialiation
+// // // var
 
-// a = 12       // reuse      // reinti
 
-// var a = 30   // redeclration
+// // var a = 10   // declration // intiazialiation
 
+// // a = 12       // reuse      // reinti
 
-// console.log(a)
+// // var a = 30   // redeclration
 
 
-// // let
+// // console.log(a)
 
-// let b = 5  // declration   // inti
 
-// b = 10     // reuse        // reint
+// // // let
 
-// // let b   // not accept let redeclration
+// // let b = 5  // declration   // inti
 
-// console.log(b);
+// // b = 10     // reuse        // reint
 
+// // // let b   // not accept let redeclration
 
-// // const
+// // console.log(b);
 
-// const c = 5  // declration // inti
 
-// // c = 10    // reuse   // reinti not accept
+// // // const
 
-// // const c = 10  // redeclration not accept
+// // const c = 5  // declration // inti
 
-// console.log(c);
+// // // c = 10    // reuse   // reinti not accept
 
+// // // const c = 10  // redeclration not accept
 
+// // console.log(c);
 
-// let apple = "apple"
 
-// apple = "ooty apple"
 
-// apple = "goa apple"
+// // let apple = "apple"
 
-// console.log(apple);
+// // apple = "ooty apple"
 
+// // apple = "goa apple"
 
+// // console.log(apple);
 
-// var count = 10
 
-// count = 10+1
 
-// count = count + count
+// // var count = 10
 
-// let b1 = count
+// // count = 10+1
 
+// // count = count + count
 
-// console.log(b1);
+// // let b1 = count
 
 
-// // printing statement
+// // console.log(b1);
 
-// // 1. console.log()
 
-// console.log(100);
+// // // printing statement
 
-// let b2 = 12
+// // // 1. console.log()
 
-// console.log(b2);
+// // console.log(100);
 
+// // let b2 = 12
 
-// // 2. alert()
+// // console.log(b2);
 
-// // alert("hello every one these are my first class in js")
 
-// // 3. confirm()
+// // // 2. alert()
 
-// // confirm("are you want juice ?")
+// // // alert("hello every one these are my first class in js")
 
-// // 4. prompt()
+// // // 3. confirm()
 
-// // let name1 = prompt("what is your name :")
+// // // confirm("are you want juice ?")
 
-// // console.log(name1);
+// // // 4. prompt()
 
+// // // let name1 = prompt("what is your name :")
 
-// // 5. document.writeLn()
+// // // console.log(name1);
 
-// // document.writeln("hello")
 
+// // // 5. document.writeLn()
 
-// // "hi there" - alert
+// // // document.writeln("hello")
 
 
-// // let a1 = confirm("hello ?")
+// // // "hi there" - alert
 
-// // console.log(a1);
 
+// // // let a1 = confirm("hello ?")
 
+// // // console.log(a1);
 
 
-// // console method
 
-// // log
 
-// console.log(1000);
+// // // console method
 
+// // // log
 
-// // error
+// // console.log(1000);
 
-// console.error(1000)
 
-// // warn
+// // // error
 
-// console.warn(1000);
+// // console.error(1000)
 
+// // // warn
 
-// // clear
+// // console.warn(1000);
 
-// console.clear()
 
+// // // clear
 
-// let a3 = "kevin"
+// // console.clear()
 
-// let a4 = 123
 
-// let a5 = "123"
+// // let a3 = "kevin"
 
+// // let a4 = 123
 
-// // Data types
+// // let a5 = "123"
 
-// // 1. primitive datatypes
 
-// // 1. string 
+// // // Data types
 
-// console.log("string : ","hello",123,"123");
+// // // 1. primitive datatypes
 
-// // 2. number
+// // // 1. string 
 
-// console.log("number : ",123);
+// // console.log("string : ","hello",123,"123");
 
+// // // 2. number
 
-// // 3. boolean
+// // console.log("number : ",123);
 
-// console.log("boolean : ", true , false);
 
+// // // 3. boolean
 
-// // 4. undefined
+// // console.log("boolean : ", true , false);
 
-// let a6
 
-// console.log(a6);
+// // // 4. undefined
 
-// // 5. null
+// // let a6
 
-// let a7 = prompt()
+// // console.log(a6);
 
-// console.log(a7);
+// // // 5. null
 
+// // let a7 = prompt()
 
+// // console.log(a7);
 
-// // 2. non primitive datatypes
 
 
-// array 
+// // // 2. non primitive datatypes
 
-// []
 
+// // array 
 
+// // []
 
-let fruit = ["graphs","apple","banana","orange","cherry","pineapple","guava"]
 
-console.log(fruit);
-console.log(fruit[0]);
-console.log(fruit[2]);
-console.log(fruit[0]);
-console.log(fruit[fruit.length-1]);
 
-// object
+// let fruit = ["graphs","apple","banana","orange","cherry","pineapple","guava"]
 
-// {}
+// console.log(fruit);
+// console.log(fruit[0]);
+// console.log(fruit[2]);
+// console.log(fruit[0]);
+// console.log(fruit[fruit.length-1]);
 
-const car = {
-    luxeryCar : ["audi","jaquar"],
-    midCars   : ["ford","tata"],
-    greenCar  : "Ev's"
-}
+// // object
 
-console.log(car);
-console.log(car.greenCar);
-console.log(car.luxeryCar[1]);
-console.log(car.midCars[1]);
+// // {}
 
-console.clear();
+// const car = {
+//     luxeryCar : ["audi","jaquar"],
+//     midCars   : ["ford","tata"],
+//     greenCar  : "Ev's"
+// }
 
+// console.log(car);
+// console.log(car.greenCar);
+// console.log(car.luxeryCar[1]);
+// console.log(car.midCars[1]);
 
-// operators
+// console.clear();
 
-// 1.Arithmatic operator
 
-// meaning      // opeartors
+// // operators
 
-// 1. addition       +
-// 2. subraction     -
-// 3. multiplication *
-// 4. division       /
-// 5. modulus        %
-// 6. exponencial    **
-// increment operator ++  [1.post increment, 2. pre increment]
-// decrement operator --  [1.post decrement, 2. pre decrement]
+// // 1.Arithmatic operator
 
+// // meaning      // opeartors
 
-console.log(10+20);
-console.log(10-20);
-console.log(10*20);
-console.log(10/20);
-console.log(10%20);
-console.log(10**3); // 10^3 = 10*10*10 = 1000
+// // 1. addition       +
+// // 2. subraction     -
+// // 3. multiplication *
+// // 4. division       /
+// // 5. modulus        %
+// // 6. exponencial    **
+// // increment operator ++  [1.post increment, 2. pre increment]
+// // decrement operator --  [1.post decrement, 2. pre decrement]
 
-// increment operator
 
-//(++) = add 1 value
-//(--) = subract 1 value
+// console.log(10+20);
+// console.log(10-20);
+// console.log(10*20);
+// console.log(10/20);
+// console.log(10%20);
+// console.log(10**3); // 10^3 = 10*10*10 = 1000
 
+// // increment operator
 
-let one = 10
+// //(++) = add 1 value
+// //(--) = subract 1 value
+
+
+// let one = 10
  
-one     = ++one
+// one     = ++one
 
-console.log(one);
+// console.log(one);
 
 
-let num1 = 2       // 
-let num2 = num1++  //num1 = 2
+// let num1 = 2       // 
+// let num2 = num1++  //num1 = 2
 
-console.log("num1 : ",num1);
-console.log("num2 : ",num2);
+// console.log("num1 : ",num1);
+// console.log("num2 : ",num2);
 
 
 
 
-let num3 = 3
-let num4 = ++num3
-let num5 = num4++ 
+// let num3 = 3
+// let num4 = ++num3
+// let num5 = num4++ 
 
 
-console.log("num3 :",num3);
-console.log("num4 :",num4); 
-console.log("num5 :",num5); 
+// console.log("num3 :",num3);
+// console.log("num4 :",num4); 
+// console.log("num5 :",num5); 
 
 
-let num6 = 1
-let num7 = num6-- 
-let num8 = num7++ 
+// let num6 = 1
+// let num7 = num6-- 
+// let num8 = num7++ 
 
 
-console.log("num6 :",num6); 
-console.log("num7 :",num7); 
-console.log("num8 :",num8); 
+// console.log("num6 :",num6); 
+// console.log("num7 :",num7); 
+// console.log("num8 :",num8); 
 
 
 
-let num9 = 2 // 3
-let num10 = ++num9 + ++num9 // ++num9 + ++num9 = ++2 = 3 ,++num9 = ++3 = 4
+// let num9 = 2 // 3
+// let num10 = ++num9 + ++num9 // ++num9 + ++num9 = ++2 = 3 ,++num9 = ++3 = 4
 
-console.log("num9 :",num9); // num9 
-console.log("num10 :",num10);
+// console.log("num9 :",num9); // num9 
+// console.log("num10 :",num10);
 
 
-console.clear();
+// console.clear();
 
 
-// assignment operator 
+// // assignment operator 
 
-let num11 = 10
+// let num11 = 10
 
-let additionVal = 20
+// let additionVal = 20
 
-num11     = num11 + additionVal
+// num11     = num11 + additionVal
 
-console.log(additionVal);
+// console.log(additionVal);
 
-console.log(num11);
+// console.log(num11);
 
 
-let num12 = 2
+// let num12 = 2
 
-num12     %= additionVal // num12 = num12 + additionVal
+// num12     %= additionVal // num12 = num12 + additionVal
 
-console.log(num12);
+// console.log(num12);
 
-let num13 = 5
+// let num13 = 5
 
-num13     += num13
+// num13     += num13
 
-console.log(num13)
+// console.log(num13)
 
 
 
-// comparision operator Or relational operator
+// // comparision operator Or relational operator
 
 
-//  meaning       operator               example          result
+// //  meaning       operator               example          result
 
-// lessthen op        <                     5<2             false
+// // lessthen op        <                     5<2             false
 
-// greater Then       >                     5>3             true
+// // greater Then       >                     5>3             true
 
-// lessThenEq         <=                    5<=5            true
+// // lessThenEq         <=                    5<=5            true
 
-// greaterThenEq      >=                    5>=5            true
+// // greaterThenEq      >=                    5>=5            true
 
-// loosyTypeEq        ==                    5=="5"          true
+// // loosyTypeEq        ==                    5=="5"          true
 
-// StrictlyTypeEq     ===                   5==="5"         false
+// // StrictlyTypeEq     ===                   5==="5"         false
 
-// loosyNotEq         !=                    5!="5"          false
+// // loosyNotEq         !=                    5!="5"          false
 
-// strictlyNotEq      !==                   5!=="5"         true
+// // strictlyNotEq      !==                   5!=="5"         true
 
 
 
 
-console.log("5"!==5);    // true 
-console.log("3"==="3");  // true
-console.log(5>5);        // false
-console.log(0===0);      // true
-console.log("0"==="0");  // true
-console.log(1!=2);       // true
-console.log(6>=7);       // false 
-console.log(5>=5);       // true
-console.log(.4!==4);     // true   .4===4 = !false = true
-console.log(true !== "true"); // true
-console.log(6===.5);     // false
-console.log(2>=2);       // true
-console.log(123>=321);   // false
-console.log(true == 1);  // true = 1 == 1
+// console.log("5"!==5);    // true 
+// console.log("3"==="3");  // true
+// console.log(5>5);        // false
+// console.log(0===0);      // true
+// console.log("0"==="0");  // true
+// console.log(1!=2);       // true
+// console.log(6>=7);       // false 
+// console.log(5>=5);       // true
+// console.log(.4!==4);     // true   .4===4 = !false = true
+// console.log(true !== "true"); // true
+// console.log(6===.5);     // false
+// console.log(2>=2);       // true
+// console.log(123>=321);   // false
+// console.log(true == 1);  // true = 1 == 1
 
 
 
-// Logical operator
+// // Logical operator
 
-// And   - &&
+// // And   - &&
 
-//    true + true + true = true
+// //    true + true + true = true
 
-//    false + true + true = false 
+// //    false + true + true = false 
 
 
-// Or    - ||
+// // Or    - ||
 
 
-//   false + false + false = false
+// //   false + false + false = false
 
-//   true  + false + false = true
+// //   true  + false + false = true
 
 
-// Not   -  !
+// // Not   -  !
 
-    // !(true) = false
+//     // !(true) = false
 
 
-    console.log(!(5===5));
+//     console.log(!(5===5));
 
 
-    console.log((5>=5) && (5!==5));
+//     console.log((5>=5) && (5!==5));
 
-    // true  &&  false = false
+//     // true  &&  false = false
     
     
 
 
-console.log(true && false || true);       // true  
-console.log(false || true && false);    
-console.log(!(true && false) || false); 
-console.log(!(false || false) && true); 
-console.log(true && !false || false);   
-console.log(!true || false && true);    
-console.log((true || false) && !false);
-console.log((false && true) || !false);
-console.log(!((true || false) && false));
-console.log((!true || true) && false);
-console.log(true && (false || !false));
-console.log(!(true && true) || (false && true));
-console.log((true || false) && !(false || true));
-console.log(!(false && false) || (true && !false));
-console.log((!false && true) || (false && !true));
-console.log(!(true || false) && (true || !false));
+// console.log(true && false || true);       // true  
+// console.log(false || true && false);    
+// console.log(!(true && false) || false); 
+// console.log(!(false || false) && true); 
+// console.log(true && !false || false);   
+// console.log(!true || false && true);    
+// console.log((true || false) && !false);
+// console.log((false && true) || !false);
+// console.log(!((true || false) && false));
+// console.log((!true || true) && false);
+// console.log(true && (false || !false));
+// console.log(!(true && true) || (false && true));
+// console.log((true || false) && !(false || true));
+// console.log(!(false && false) || (true && !false));
+// console.log((!false && true) || (false && !true));
+// console.log(!(true || false) && (true || !false));
 
 
 
 
-console.log(5 > 3 && 2 < 4);              // true              
-console.log(10 === 10 || 5 > 10);         // true 
-console.log(!(7 < 5) && 3 !== 3);         // false   
-console.log(8 >= 8 || 2 < 1);             // true
-console.log(4 + 1 === 5 && 6 > 3);        // true
-console.log(!(10 < 5) || 7 === 8);        // true
-console.log(3 * 2 > 5 && !(4 === 4));     // false
-console.log(9 < 10 || 2 + 2 === 5);       // true
-console.log(!(6 >= 6) || 1 < 2);          // true
-console.log(5 !== 5 && 7 >= 7);           // false
-console.log((8 - 3) > 4 || !(2 + 2 === 4));// true
-console.log(!(10 > 5) && 6 < 7);           // false
-console.log(3 + 3 === 6 && 4 * 2 > 7);     // true
-console.log(7 < 8 || !(5 === 5));          // true 
-console.log(!(9 !== 9) && 3 + 1 <= 4);     // true    
-console.log(2 * 3 >= 5 || !(4 > 4));       // true  
+// console.log(5 > 3 && 2 < 4);              // true              
+// console.log(10 === 10 || 5 > 10);         // true 
+// console.log(!(7 < 5) && 3 !== 3);         // false   
+// console.log(8 >= 8 || 2 < 1);             // true
+// console.log(4 + 1 === 5 && 6 > 3);        // true
+// console.log(!(10 < 5) || 7 === 8);        // true
+// console.log(3 * 2 > 5 && !(4 === 4));     // false
+// console.log(9 < 10 || 2 + 2 === 5);       // true
+// console.log(!(6 >= 6) || 1 < 2);          // true
+// console.log(5 !== 5 && 7 >= 7);           // false
+// console.log((8 - 3) > 4 || !(2 + 2 === 4));// true
+// console.log(!(10 > 5) && 6 < 7);           // false
+// console.log(3 + 3 === 6 && 4 * 2 > 7);     // true
+// console.log(7 < 8 || !(5 === 5));          // true 
+// console.log(!(9 !== 9) && 3 + 1 <= 4);     // true    
+// console.log(2 * 3 >= 5 || !(4 > 4));       // true  
 
-console.clear();
-
-
-// Concatination (+)
-
-let name1 = "ben"
-
-let name2 = "10"
+// console.clear();
 
 
-let finalName = name1 +" "+ name2
+// // Concatination (+)
 
-console.log(finalName);
+// let name1 = "ben"
 
-
-// Template String
-
-
-let TemplateVal = `${name1} ${name2}`
-
-console.log(TemplateVal);
+// let name2 = "10"
 
 
+// let finalName = name1 +" "+ name2
 
-console.clear();
-
-// type conversion
-
-// implicit type conversion
+// console.log(finalName);
 
 
-let one1 = "12"
-
-let num  = 12
-
-console.log(typeof(one1+num));
+// // Template String
 
 
-// string 
+// let TemplateVal = `${name1} ${name2}`
 
-// string anything string
-
-console.log(typeof("12"+"12"));
-console.log(typeof("12"+12));
-console.log(typeof("12"+true));
-console.log(typeof("12"+undefined));
-console.log(typeof("12"+null));
-console.log(typeof("12"+[1,2]));
-console.log(typeof("12"+{k:1}));
+// console.log(TemplateVal);
 
 
 
-// number
+// console.clear();
+
+// // type conversion
+
+// // implicit type conversion
 
 
-console.log(typeof(1 + "2"));
-console.log((1 + 1));
-console.log((1 + true));
-console.log((1 + undefined));
-console.log((1 + null));
-console.log(typeof(1 + [1,2]));
-console.log(typeof(1 + {k:2}));
+// let one1 = "12"
+
+// let num  = 12
+
+// console.log(typeof(one1+num));
 
 
-// boolean
+// // string 
 
-console.log((true + "45"));
-console.log((true + 5));
-console.log((true + true));
-console.log((true + undefined));
-console.log((true + null));
-console.log((true + [5,6]));
-console.log(typeof(true + {a:6}));
+// // string anything string
 
-
-// Explicit Type Conversion
-
-
-console.log(10 + Number("10"));
-
-console.log(Number());
-console.log(Number("abc"));
-console.log(Number(5));
-console.log(Number(false));
-console.log(Number(undefined));
-console.log(Number(null));
-console.log(Number([176,890]));
-console.log(Number({l:67}));
+// console.log(typeof("12"+"12"));
+// console.log(typeof("12"+12));
+// console.log(typeof("12"+true));
+// console.log(typeof("12"+undefined));
+// console.log(typeof("12"+null));
+// console.log(typeof("12"+[1,2]));
+// console.log(typeof("12"+{k:1}));
 
 
 
-console.log(Boolean());
-console.log(Boolean("dd"));
-console.log(Boolean(false));
-console.log(Boolean(undefined));
-console.log(Boolean(null));
-console.log(Boolean([8,5]));
-console.log(Boolean({l:89}));
+// // number
 
 
-console.log(String("t"));
+// console.log(typeof(1 + "2"));
+// console.log((1 + 1));
+// console.log((1 + true));
+// console.log((1 + undefined));
+// console.log((1 + null));
+// console.log(typeof(1 + [1,2]));
+// console.log(typeof(1 + {k:2}));
 
 
-let val1 = 5
-let val2 = val1++
-let val3 = ++val2
+// // boolean
 
-console.log(val1);
-console.log(val2);
-console.log(val3);
-
-
-console.clear();
-
-// conditional statement
-
-// if 
-
-// if(){
-//  statement
-//}
+// console.log((true + "45"));
+// console.log((true + 5));
+// console.log((true + true));
+// console.log((true + undefined));
+// console.log((true + null));
+// console.log((true + [5,6]));
+// console.log(typeof(true + {a:6}));
 
 
-// condition  true = allow
+// // Explicit Type Conversion
 
 
-if(5==="5"){
-    alert("this condition is true")
+// console.log(10 + Number("10"));
+
+// console.log(Number());
+// console.log(Number("abc"));
+// console.log(Number(5));
+// console.log(Number(false));
+// console.log(Number(undefined));
+// console.log(Number(null));
+// console.log(Number([176,890]));
+// console.log(Number({l:67}));
+
+
+
+// console.log(Boolean());
+// console.log(Boolean("dd"));
+// console.log(Boolean(false));
+// console.log(Boolean(undefined));
+// console.log(Boolean(null));
+// console.log(Boolean([8,5]));
+// console.log(Boolean({l:89}));
+
+
+// console.log(String("t"));
+
+
+// let val1 = 5
+// let val2 = val1++
+// let val3 = ++val2
+
+// console.log(val1);
+// console.log(val2);
+// console.log(val3);
+
+
+// console.clear();
+
+// // conditional statement
+
+// // if 
+
+// // if(){
+// //  statement
+// //}
+
+
+// // condition  true = allow
+
+
+// if(5==="5"){
+//     alert("this condition is true")
     
-}
-
-
-// if else
-
-if(-1){
-  console.log("manage true");
-  
-}else{
-  console.log("manage false");
-  
-}
-
-
-// if else if 
-
-let hour = 6
-
-if(hour >= 1 && hour <=6){
-  console.log("this is early morning");
-}else if(hour >= 7 && hour <= 12){
-  console.log("this good morning");
-
-}else if(hour >= 13 && hour <= 16){
-  console.log("this is afternoon");
-  
-}else if(hour>=17 && hour<=19){
-   console.log("this is evening");
-   
-}else{
-  console.log("this good night");
-  
-}
-
-
-
-// switch
-
-
-// switch(){
-//   case value : statement ; break;
-//   case value : statement ; break;
-//   case value : statement ; break;
-//   case value : statement ; break;
-//   case value : statement ; break;
 // }
 
 
-let trafficLight = "yellow"
+// // if else
 
-switch(trafficLight){
-  case "red" : console.log("stop the vechile");break
-  case "yellow" : console.log("start the vechile"); break;
-  case "green" : console.log("go the vechile");break
-}
-
-
-
-// nested if
-
-
-// let age = prompt("enter your age : ")
-// let height = prompt("enter your height : ")
-// let weight = prompt("enter your weight :")
-
-
-// if(age>=18){
-//   if(height>=162){
-//     if(weight>=62){
-//        alert("congradulation you eligible");
-       
-//     }else{
-//       alert(`your ${weight}kg weight is not eligible minimum age is 62kg`);
-//     }
-//   }else{
-//     alert("your"+height+"cm height is not eligible minimum height is 162");
-    
-//   }
+// if(-1){
+//   console.log("manage true");
+  
 // }else{
-//   alert(`your ${age} year age is not eligible minimum age is 18year`);
+//   console.log("manage false");
   
 // }
 
 
-// Ternary operator 
+// // if else if 
 
-// condition ? statement : statement;
+// let hour = 6
 
-// let PWDInput = 0
+// if(hour >= 1 && hour <=6){
+//   console.log("this is early morning");
+// }else if(hour >= 7 && hour <= 12){
+//   console.log("this good morning");
 
-// PWDInput ? console.log("welcome enter the website") : console.log("your password is wrong");
-
-
-console.clear();
-
-// for loop
-
-// for(intialization;condition;iteration){
-//   statement
+// }else if(hour >= 13 && hour <= 16){
+//   console.log("this is afternoon");
+  
+// }else if(hour>=17 && hour<=19){
+//    console.log("this is evening");
+   
+// }else{
+//   console.log("this good night");
+  
 // }
 
-console.log();
 
-for(let i = 1; i<=20; i++){ 
- console.log(i + "*5="+i*5);
+
+// // switch
+
+
+// // switch(){
+// //   case value : statement ; break;
+// //   case value : statement ; break;
+// //   case value : statement ; break;
+// //   case value : statement ; break;
+// //   case value : statement ; break;
+// // }
+
+
+// let trafficLight = "yellow"
+
+// switch(trafficLight){
+//   case "red" : console.log("stop the vechile");break
+//   case "yellow" : console.log("start the vechile"); break;
+//   case "green" : console.log("go the vechile");break
+// }
+
+
+
+// // nested if
+
+
+// // let age = prompt("enter your age : ")
+// // let height = prompt("enter your height : ")
+// // let weight = prompt("enter your weight :")
+
+
+// // if(age>=18){
+// //   if(height>=162){
+// //     if(weight>=62){
+// //        alert("congradulation you eligible");
+       
+// //     }else{
+// //       alert(`your ${weight}kg weight is not eligible minimum age is 62kg`);
+// //     }
+// //   }else{
+// //     alert("your"+height+"cm height is not eligible minimum height is 162");
+    
+// //   }
+// // }else{
+// //   alert(`your ${age} year age is not eligible minimum age is 18year`);
+  
+// // }
+
+
+// // Ternary operator 
+
+// // condition ? statement : statement;
+
+// // let PWDInput = 0
+
+// // PWDInput ? console.log("welcome enter the website") : console.log("your password is wrong");
+
+
+// console.clear();
+
+// // for loop
+
+// // for(intialization;condition;iteration){
+// //   statement
+// // }
+
+// console.log();
+
+// for(let i = 1; i<=20; i++){ 
+//  console.log(i + "*5="+i*5);
  
-}
+// }
 
-// i=1 ; 1<=5 true; 1++     console : 1 
-// i=2 ; 2<=5 true; 2++     console : 2
-// i=3 ; 3<=5 true; 3++     console : 3
-// i=4 ; 4<=5 true; 4++     console : 4
-// i=5 ; 5<=5 true; 5++     console : 5
-// i=6 ; 6<=5 false;
+// // i=1 ; 1<=5 true; 1++     console : 1 
+// // i=2 ; 2<=5 true; 2++     console : 2
+// // i=3 ; 3<=5 true; 3++     console : 3
+// // i=4 ; 4<=5 true; 4++     console : 4
+// // i=5 ; 5<=5 true; 5++     console : 5
+// // i=6 ; 6<=5 false;
 
-// while
+// // while
 
-// intialiazation
+// // intialiazation
 
-// while(condition ){
-//   statement 
-//   iteration
+// // while(condition ){
+// //   statement 
+// //   iteration
+// // }
+
+
+// let val = 10
+
+// while(val>=30){
+
+//   console.log(val);
+
+//   val--
+  
 // }
 
 
-let val = 10
+// //  do while 
 
-while(val>=30){
+// // intialiazation
 
-  console.log(val);
+// // do{
+// //    statement ; iteration;
+// // }
 
-  val--
-  
-}
+// // while(condition)
 
-
-//  do while 
-
-// intialiazation
+// let num14 = 10
 
 // do{
-//    statement ; iteration;
+//   console.log(num14); num14++
+  
 // }
 
-// while(condition)
+// while(num14<=20)
 
-let num14 = 10
 
-do{
-  console.log(num14); num14++
+// // for of loop [string, Array, function]
+
+// let str = "javascript"
+// let arr = ["apple","orange","banana","guava"]
+
+// for(let ben of arr){
+//   console.log(ben);
   
-}
-
-while(num14<=20)
-
-
-// for of loop [string, Array, function]
-
-let str = "javascript"
-let arr = ["apple","orange","banana","guava"]
-
-for(let ben of arr){
-  console.log(ben);
-  
-}
+// }
 
 
 
 
-// for in loop [object]
+// // for in loop [object]
 
-let games = {
-  small : "snack",
-  medium : "pubg",
-  large : "spiderman"
-}
+// let games = {
+//   small : "snack",
+//   medium : "pubg",
+//   large : "spiderman"
+// }
 
-for(let ben10 in games){
-    console.log(games[ben10]);
+// for(let ben10 in games){
+//     console.log(games[ben10]);
     
+//
+
+
+// Functions
+
+// syntex
+
+function one(a,b,c){
+  
+  console.log("name : ", a);
+  console.log("age : ", b);
+  console.log("designation : ", c);
+  
+  
 }
+
+one("kamal",22,"developer")
+one("vijay",22,"Frontend developer")
+
+
+
+function two(a,b){
+  
+  return a*b
+
+  
+}
+
+let returnVal = two(100, 200);
+
+console.log(returnVal);
+
+
+function three(a,b){
+  console.log(a+b);
+  
+}
+
+three(10,returnVal)
+
+
+// function types
+
+// 1.Named function
+
+function named(){
+  console.log("Named Function");
+  
+}
+named()
+
+
+// 2. Anonymous Function
+
+
+
+
+var Anonymous = function(){
+  console.log("Anonymous Function");
+  
+}
+
+Anonymous()
+
+// 3. Arrow Function
+
+let Arrow = ()=>{
+  console.log("Arrow Function");
+  
+}
+Arrow()
+
+
+// Scopes
+
+// var --> global & function scope
+// let --> block scope
+// const --> block scope
+
+
+
+var aa = 10
+
+console.log(aa);
+
+
+let bb = 12
+
+console.log(bb);
+
+const cc = 13
+console.log(cc);
+
+
+
+function five(){
+  if(-1){
+    var global = "global scobe"
+    let block = "block scobe"
+    const block1 = "block"
+    console.log(block1);
+    console.log(block);
+  }
+  
+  console.log(global);
+}
+
+five()
+console.clear();
+
+
+// Callback function & Higher order function
+
+function function1(){
+  console.log("higher order function");
+  
+}
+
+function function2() {
+  console.log("callback function");
+  
+}
+
+function1(function2())
+
+
+function add(call,a,b){// callback = sub, a=20,b=40
+  console.log(a+b); // 20+40 = 60
+  call(20,20) // sub(20,20)
+}
+
+
+function sub(num1,num2){
+console.log(num1-num2);
+
+}
+
+add(sub,20,40)
+
+
+// self invoke function
+
+
+// (function(offer){
+//   alert("now offers going on"+offer+"%")
+// })(50)
+
+
+// Generator Function
+
+
+function*gen(){
+   yield "thanks for clicked"
+   yield "you will get 50 % off"
+   yield "try Again"
+   yield "try Again more"
+   yield "you will get cashback 100% flat off"
+}
+
+let genFun = gen()
+
+console.log(genFun.next().value);
+console.log(genFun.next().value);
+console.log(genFun.next().value);
+console.log(genFun.next().value);
+console.log(genFun.next().value);
+console.log(genFun.next().value);
+
+
+
+console.clear();
+
+
+function form(a,b,c,d="no"){
+  console.log("name :",a);
+  console.log("age :",b);
+  console.log("department :",c);
+  console.log("disablity :",d);
+  
+}
+
+form("ben",22,"Ece","yes")
